@@ -10,27 +10,35 @@
         }
 
         .container {
-
+            display: grid;
+            grid-template-areas:
+                "a a a"
+                "b c c"
+                "d d d";
+            height:100vh;
 
         }
 
         .item {}
 
         .item-a {
-
+            grid-area: a;
+            background-color: cadetblue;
         }
 
         .item-b {
-
+            grid-area: b;
+            background-color: coral;
         }
 
         .item-c {
-
+            grid-area: c;
         }
 
         .item-d {
 
-
+            grid-area: d;
+            background-color: cadetblue;
         }
         }
 
